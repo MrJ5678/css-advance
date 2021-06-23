@@ -11,6 +11,11 @@ const routes = [
     name: "MallShop",
     component: () => import("../views/mall/shop.vue"),
   },
+  {
+    path: "/promotion/fast-buy",
+    name: "PromotionFastBuy",
+    component: () => import("../views/promotion/fast-buy.vue"),
+  },
 ]
 
 const router = createRouter({

@@ -236,7 +236,7 @@ export default {
 }
 
 @include b(footer) {
-  & ::v-deep .c-foot-nav__text {
+  & :v-deep .c-foot-nav__text {
     height: 50px;
   }
 }

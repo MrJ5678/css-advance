@@ -6,13 +6,13 @@
 
 <script>
 export default {
-  name: "CMain"
+  name: "CMain",
 }
 </script>
 
 <style lang="scss" scoped>
 @include b(c-main) {
-  ovflow: auto;
+  overflow: auto;
   flex: 1;
 }
 </style>
